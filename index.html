@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <a href="#">Adventure</a>
+            </div>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="showMenu()"></i>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#"><button type='button' class="btn">Contact</button></a></li>
+                    </ul>
+                
+                </div>
+                <i class="fa fa-bars" onclick="hideMenu()"></i>
+
+            
+        </nav>
+        <div class="wonderful">
+            <h3>Explore The Colorful World</h3>
+            <h1>A Wonderful gift</h1>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+    <!-- ---SECTION HEADER END --- -->
+    <div class="upcoming">
+        <div class="text__box">
+            <h1>Upcoming events</h1>
+        </div>
+        <div class="left__box">
+            <img src="images/img1.png" alt="">
+                <h3>Everest Camp Trek</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus,<br>explicabo nobis obcaecati ipsam.</p>
+                <a href="#">Learn More</a>
+        </div>
+         <div class="right__box">
+            <img src="images/img2.png" alt="">
+            <h3>Walking holidays</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quibusdam et dignissimos explicabo accusanti.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+
+    <!-- ----Upcoming END -->
+
+    <div class="world">
+        <div class="text__info">
+            <h1>Explore the world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, aspernatur id maxime, officia porro neque amet molestias pariatur asperiores debitis maiores odit.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+
+    <div class="destination">
+        <div class="left__text">
+            <h1>Upcoming tours & destination</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas commodi iure animi, quisquam rem alias, suscipit est natus fugit, minus qui velit? Perspiciatis ratione natus non atque doloremque totam ratione!</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="right__box-t">
+                <div class="top">
+                    <img src="images/img3.png" class="top__one-img">
+                    <img src="images/img4.png" class="top__two-img">
+                </div>
+        </div>
+        <div class="right__box-b">
+            <div class="bottom">
+                <img src="images/img5.png" class="top__three-img">
+                <img src="images/img6.png" class="top__four-img">
+            </div>
+    </div>
+        
+           
+            </div>
+       
+<div class="footer">
+    <h4>Copyright &copy 2022 Deep Soft</h4>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+          let navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0px";
+                navLinks.style.display="none";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-20px";
+                navLinks.style.display="block";
+            }
+    </script>
+</body>
+</html>
